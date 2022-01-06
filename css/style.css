@@ -1,0 +1,40 @@
+/* Navigation styles */
+.logo {
+    background: white;
+    height: 230px;
+    background-image: url("../images/jakes-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.nav {
+    background: black;
+    padding: 20px;
+    display: flex
+}
+
+
+.left, .center, .right {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {width: 20%;}
+
+.center {width:50%}
+
+.center a {
+
+    Color: white;
+    padding:10px;
+    font-size: 20px;
+    text-decoration:none;
+    font-family: Arial 
+
+}
+
+/* Column styles */
+
+/* Footer Styles */
